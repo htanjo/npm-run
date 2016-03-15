@@ -5,7 +5,7 @@ var bl = require('bl')
 var fs = require('fs')
 
 var path = require('path')
-var spawn = require('child_process').spawn
+var spawn = require('cross-spawn')
 
 var npmRun = require('../')
 
